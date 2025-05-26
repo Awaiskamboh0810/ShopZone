@@ -35,4 +35,14 @@ Welcome to **ShopZone**, a modern and feature-rich food ordering platform design
 1. Clone the project:
    ```bash
    git clone https://github.com/Awaiskamboh0810/ShopZone.git
-
+3. Navigate to the project directory:
+   ```bash
+   cd shopzone-project
+5. Install dependencies:
+   ```bash
+   npm install
+7. Run the development server:
+   ```bash
+   npm run dev
+Visit the app at:
+http://localhost:3000
