@@ -1,48 +1,71 @@
-# ShopZone – Food Ordering Web Application
+# ShopZone – Modern E-commerce Platform
+> **Note**: This project is currently being actively developed with new features and improvements. Expect regular updates!
 
+Welcome to **ShopZone**, a full-stack e-commerce platform built with cutting-edge technologies to deliver a seamless online shopping experience. Designed as a Single Page Application (SPA), it combines performance, scalability, and user-friendly design.
 
-Hello,
+## 🛠️ Tech Stack
 
-Welcome to **ShopZone**, a modern and feature-rich food ordering platform designed as a Single Page Application (SPA). It combines powerful technologies and a clean UI to deliver a smooth user experience.
+- **Frontend**: Next.js & React.js (TypeScript-ready)
+- **Styling**: Tailwind CSS + CSS Modules
+- **State Management**: Redux Toolkit
+- **Authentication**: NextAuth.js (Google/GitHub OAuth + JWT)
+- **Database**: MongoDB (Mongoose ODM)
+- **Payments**: Stripe/PayPal Integration
+- **Form Handling**: Formik + Yup Validation
+- **Testing**: Jest + React Testing Library
 
-## 🛠️ Technologies Used
+## 🚀 Key Features
 
-- **Next.js & React.js** – For frontend development and SPA functionality.
-- **Tailwind CSS** – To implement responsive and visually appealing UI.
-- **Redux Toolkit** – For efficient and scalable state management.
-- **NextAuth.js** – For secure user authentication.
-- **Formik & Yup** – To handle forms and perform validation.
-- **MongoDB** – As the database for storing user and order data.
+### User-Facing
+- 🛒 Product Catalog with Categories/Filters/Search
+- 🔍 Advanced Search & Sorting Functionality
+- 📦 Shopping Cart & Wishlist System
+- 💳 Secure Checkout & Payment Processing
+- 📊 Order Tracking & History
+- 👤 User Profile Management
+- 📧 Email Notifications (Order Confirmation/Shipping)
 
-## 🚀 Features
+### Admin Panel
+- 📦 Product Management (CRUD Operations)
+- 📊 Sales Analytics Dashboard
+- 📝 Order Management System
+- 👥 User Role Management
+- 📦 Inventory Tracking
+- 🖼️ Media Upload (Cloudinary Integration)
 
-- Fully responsive and mobile-friendly layout.
-- User authentication system (Login/Register) with session handling.
-- Admin panel for managing users, products, and orders.
-- Dynamic product listing and filtering.
-- Seamless order placement and checkout system.
-- Personalized user profile and order history tracking.
+## ✨ Technical Highlights
 
-## ✨ Additional Enhancements
-
-- Optimized state flow using Redux Toolkit for complex components.
-- Custom error handling and user feedback messages.
-- Efficient MongoDB queries for performance improvements.
-- Order customization support for users during checkout.
+- Optimized performance with SSR/ISR (Next.js)
+- Responsive UI across all devices
+- JWT-based Authentication System
+- Rate Limiting & API Security
+- CI/CD Pipeline Ready
+- RESTful API Architecture
+- Error Tracking (Sentry Integration)
 
 ## 📦 Getting Started
 
-1. Clone the project:
+### Prerequisites
+- Node.js v16+
+- MongoDB Atlas Cluster
+- Stripe/PayPal Developer Account
+
+### Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/Awaiskamboh0810/ShopZone.git
-3. Navigate to the project directory:
-   ```bash
-   cd shopzone-project
-5. Install dependencies:
+2. Install dependencies:
    ```bash
    npm install
-7. Run the development server:
+
+3. Configure environment variables:
+   ```bash
+   env
+   MONGODB_URI=your_mongodb_uri
+   NEXTAUTH_SECRET=your_secret
+   STRIPE_API_KEY=your_stripe_key
+4. Run development server:
    ```bash
    npm run dev
-Visit the app at:
-http://localhost:3000
+5. Access the application at: http://localhost:3000
